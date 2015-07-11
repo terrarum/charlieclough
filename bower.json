@@ -1,1 +1,13 @@
-{}
+{
+    "name": "charlieclough",
+    "version": "0.0.1",
+    "authors": [
+        "James Fidler <terrarum@gmail.com>"
+    ]
+    "moduleType": [
+        "node"
+    ],
+    "license": "MIT",
+    "dependencies": {
+    }
+}
