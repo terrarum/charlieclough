@@ -1,0 +1,129 @@
+body {
+    font-size: 67.5%;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+.container {
+    font-size: 1rem;
+}
+
+.title {
+    text-align: center;
+
+    margin-top: 28px;
+
+    padding-bottom: 28px;
+
+    color: #141d66;
+    border-bottom: 2px solid #141d66;
+    letter-spacing: 2px;
+
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.title > .firstLetter {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.subtitle {
+    position: relative;
+    text-align: center;
+
+    font-size: 2em;
+
+    letter-spacing: 1px;
+
+    margin-top: 31px;
+    margin-bottom: 27px;
+}
+
+.subtitle > .firstLetter {
+    font-size: 1.15em;
+}
+
+.col-bullet:after {
+    position: relative;
+}
+
+.bullet {
+    position: absolute;
+    top: -5px;
+    right: -21px;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 767px) {
+    .bullet {
+        display: none;
+    }
+}
+
+.email {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.email > .firstLetter {
+    font-size: 1.2em;
+}
+
+.phone {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;
+
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 370px) {
+    .email {
+        font-size: 1.4em;
+    }
+    .phone {
+        font-size: 1.74em;
+    }
+}
+
+p {
+    font-size: 1.5em;
+    color: #444444;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 992px) {
+    p {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    p {
+        padding: 0 10px;
+    }
+}
+
+.footer-split {
+    margin-top: 68px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-split {
+        border-bottom: 1px solid black;
+        margin-top: 28px;
+        margin-bottom: 36px;
+    }
+}
+
+.link {
+    color: #333333 !important;
+    border-bottom: 1px solid #777777;
+}
+.link:hover {
+    text-decoration: none;
+}
