@@ -68,7 +68,7 @@ body {
     margin-top: 20px;
 }
 
-.email > .firstLetter {
+.email .firstLetter {
     font-size: 1.2em;
 }
 
