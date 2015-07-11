@@ -127,3 +127,7 @@ p {
 .link:hover {
     text-decoration: none;
 }
+
+.link:active, .link:focus {
+    text-decoration: none;
+}
